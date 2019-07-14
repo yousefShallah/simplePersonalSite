@@ -1,0 +1,165 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Calibri Light;
+
+}
+.header{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header_b{
+    background-image: url(../Images/backgroundSite.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover; 
+    margin: 0%;
+    padding: 0%;
+    height: 800px;
+    background-position: center;
+}
+
+.list{
+    padding: 25px;
+    margin-left: 2%;
+}
+.list li {
+    text-align: center;
+    float: right;
+    width: 80px;
+    list-style-type: none; 
+    margin: 10px;
+    font-size: 14px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: #ddd;
+}
+
+.list li a:hover{
+    /*color: #ccc;**/ 
+    color: #f9fce1;
+    font-size: 16px;
+}
+.logo{
+    background-image: url(../Images/084cccc425610d57421f988bca196a77.png);
+    width: 110px;
+    height: 110px;
+    margin: 5px;
+    margin-left: 2%;
+    float: left;
+    box-sizing: border-box;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.body_text{
+    font-size: 33px;
+    color: #ccc;
+    margin-top: 10%;
+    margin-left: 8%;   
+}
+.body_text small{
+    color: #607D8B;
+    font-weight: bold;
+}
+.about{
+    font-size: 15px;
+}
+.skills{
+    font-size: 25px;
+}
+.skills_list{
+    font-size: 15px;
+    color: #CFD8DC; 
+    width: 230px;
+
+}
+.skills_list li:hover{
+    font-size: 15.5px;
+    color: #f9fce1;
+    cursor: pointer;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.content a{
+    text-decoration: none;
+    color: #607D8B;
+}
+.content i{
+    font-size: 20px;
+    padding: 8px;
+}
+.content i:hover{
+    background: #CFD8DC;
+    cursor: pointer;
+}
+
+/* i don't this section */ 
+.headerMyWork{
+    height: 1300px;
+    background: #525252;
+    margin: 0%;
+    padding: 0%;
+}
+.allMyWork{
+    margin-top: 140px;
+    margin-left: 5%;
+}
+.box_myWork{
+    background: #CFD8DC;
+    width: 29.9%;
+    height: 400px;
+    float: left;
+    margin: 1%;
+}
+.box_myWork:hover{
+    width: 30%;
+    height: 400px;
+}
+.img{
+    background-image: url(../Images/backgroundSite.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 98%;   
+    height: 390px;
+    margin: 1%;
+    cursor: pointer;
+}
+.descApp{
+    margin-left: 10px;
+    margin-top: -150px;
+}
+
+.appName{
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+}
+.descApp a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.descApp p{
+    font-size: 15px; 
+}
+.appName:hover{
+    font-size: 16px;
+    color: #216583;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background: #f4f4f4;
+    margin-top: -50px;
+    
+}
+.footer p{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+}
